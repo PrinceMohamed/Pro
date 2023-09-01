@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <link rel="stylesheet" href="./all.min.css">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,800;1,900&family=Phudu:wght@300;400;500;600;700;800;900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Lato', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Phudu', cursive;
+font-family: 'Rubik', sans-serif;
+}
+body{
+  height: 4000px;
+  width: 100%;
+  background-color: #EEE;
+  position: relative;
+  overflow-x: hidden;
+}
+.navbar{
+    z-index: 9999900000000000000000000000000000000000000;
+    position: sticky;
+    top: 0;
+}
+.conter1{
+ position: relative;   
+}
+.conte1{
+            background-image: url("../wallpaperflare.com_wallpaper.jpg");
+            background-size:100% 100%;
+            height: 500px;
+            position: relative;
+        }
+        .jm1{
+            position: absolute;
+            top: 20%;
+            color: #fff;
+        }
+.image1{
+    height: 500px;
+}
+.jumbotron{
+    position: absolute;
+    top: 15%;
+    margin-left: 20px;
+}
+.my-5{
+  width: 800px;
+}
+.contain1{
+  width: 90%;
+}
+@media (max-width: 731px) {
+  .text2 {
+    width: 600px;
+  }
+  .text3{
+    width: 600px;
+  }
+}
+@media (max-width: 652px) {
+  .text2 {
+    width: 400px;
+  }
+  .text3{
+    width: 600px;
+  }
+}
+@media (max-width: 471px) {
+  .text2 {
+    width: 400px;
+  }
+  .text3{
+    width: 400px;
+  }
+}
+.im{
+  width: 200px;
+   height: 200px;
+    margin: auto;
+     padding-top: 5px;
+     transition: 0.3s;
+border-radius: 0 0 10pc 0;
+    }
+.im:hover{
+width: 100%;
+cursor: pointer;
+border-radius:10px 10px 0 0 ;
+}
+.empty{
+  width: 10px;
+  height: 50px;
+  background-color: #000;
+  transform: translate(200px);
+  animation: forwards move 1s;
+  
+}
+@keyframes move {
+  0%{
+    transform: translate(200px);
+  }
+  100%{
+    transform: translate(750px);
+    font-weight: bold;
+  }
+}
+.contain1{
+  transform: translate(0,200px);
+}
+.card{
+  margin-bottom: 10px;
+}
+.carbtn{
+  transition: 0.5s;
+  width: 80%;
+}
+.carbtn:hover{
+  width: 100%;
+}
+.conte2{
+}
+.conte2 div{
+  position: relative;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+background: #e8e8e8;
+box-shadow:  10px 10px 14px #5f5f5f,
+             -10px -10px 14px #ffffff;
+             margin: 10px;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+ .count1::after{
+  content: 'Client';
+  display: flex;
+flex-direction: row;
+font-size: 20px;
+position: absolute;
+left: 42px;
+}
+ .count2::after{
+  content: 'A trip';
+  display: flex;
+flex-direction: row;
+font-size: 20px;
+position: absolute;
+left: 42px;
+}
+ .count3::after{
+  content: 'Employee';
+  display: flex;
+flex-direction: row;
+font-size: 20px;
+position: absolute;
+left: 27px;
+}
+ .count4::after{
+  content: 'Airplane';
+  display: flex;
+flex-direction: row;
+font-size: 20px;
+position: absolute;
+left: 33px;
+}
+.conte3{
+  transform: translate(0,700px);
+}
+.coins{
+  width: 25%;
+}
+.p1{
+  width: 500px;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.p1{
+  width:50%;
+}
+.fakra div{
+  width: 10px;
+height: 10px;
+background-color: #fff;
+margin-right: 10px;
+border-radius: 50%;
+border: 1px solid #000;
+cursor: pointer;
+}
+.fakra div :hover{
+}
+@media (max-width:952px) {
+  .conte5 img{
+display: none;
+right: 40%;
+  }
+ .p1{
+  width: 100%;
+ }
+}
+@media (max-width:464px) {
+body{
+  height: 7000px;
+}
+}
+.div1{
+  background: #000;
+}
+.c1 , .c2 , .c3 , .c4{
+  box-shadow: 2px 0px 2px #000 ,
+  -3px 3px 2px #000;
+  transition: 0,8s;
+}
+.c1:hover{
+  cursor: pointer;
+  box-shadow: 5px 0px 8px #000 ,
+  -5px 5px 4px #000
+}
+.c2:hover{
+  cursor: pointer;
+  box-shadow: 5px 0px 8px #000 ,
+  -5px 5px 4px #000
+}
+.c3:hover{
+  cursor: pointer;
+  box-shadow: 5px 0px 8px #000 ,
+  -5px 5px 4px #000
+}
+.c4:hover{
+  cursor: pointer;
+  box-shadow: 5px 0px 8px #000 ,
+  -5px 5px 4px #000
+}
+.c1{
+  /* transform: translate(-500px); */
+  transition: 0.3s;
+}
+.c2{
+  /* transform: translate(500px); */
+  transition: 0.3s;
+}
+.c3:hover{
+  transition: 0.3s;
+}
+.c4:hover{
+  transition: 0.3s;
+}
+.rating {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 0.3rem;
+  --stroke: #666;
+  --fill: #ffc73a;
+}
+
+.rating input {
+  appearance: unset;
+}
+
+.rating label {
+  cursor: pointer;
+}
+
+.rating svg {
+  width: 2rem;
+  height: 2rem;
+  overflow: visible;
+  fill: transparent;
+  stroke: var(--stroke);
+  stroke-linejoin: bevel;
+  stroke-dasharray: 12;
+  animation: idle 4s linear infinite;
+  transition: stroke 0.2s, fill 0.5s;
+}
+
+@keyframes idle {
+  from {
+    stroke-dashoffset: 24;
+  }
+}
+
+.rating label:hover svg {
+  stroke: var(--fill);
+}
+
+.rating input:checked ~ label svg {
+  transition: 0s;
+  animation: idle 4s linear infinite, yippee 0.75s backwards;
+  fill: var(--fill);
+  stroke: var(--fill);
+  stroke-opacity: 0;
+  stroke-dasharray: 0;
+  stroke-linejoin: miter;
+  stroke-width: 8px;
+}
+
+@keyframes yippee {
+  0% {
+    transform: scale(1);
+    fill: var(--fill);
+    fill-opacity: 0;
+    stroke-opacity: 1;
+    stroke: var(--stroke);
+    stroke-dasharray: 10;
+    stroke-width: 1px;
+    stroke-linejoin: bevel;
+  }
+
+  30% {
+    transform: scale(0);
+    fill: var(--fill);
+    fill-opacity: 0;
+    stroke-opacity: 1;
+    stroke: var(--stroke);
+    stroke-dasharray: 10;
+    stroke-width: 1px;
+    stroke-linejoin: bevel;
+  }
+
+  30.1% {
+    stroke: var(--fill);
+    stroke-dasharray: 0;
+    stroke-linejoin: miter;
+    stroke-width: 8px;
+  }
+
+  60% {
+    transform: scale(1.2);
+    fill: var(--fill);
+  }
+}
+
+</style>
+</head>
+<body>
+    <nav class="navbar bg-warning navbar-expand-lg bg-body-tertiary mt-1">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" style="font-weight: 700;">Prince Trek</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-info" aria-current="page" href="#" style="font-weight: bold;">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Trips</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Immigration</a></li>
+                  <li><a class="dropdown-item" href="#">Currency change</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Connect with us</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success navse" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="container-fluid w-100 conter1">
+<div> <img src="./wallpaperflare.com_wallpaper.jpg" class="w-100 mt-2 image1" alt=""></div>
+<div class="row">
+<div class="jumbotron col-lg-12 col-md-10 col-sm">
+    <h1 class="display-4 text1"></h1>
+    <p class="lead text2 col-md-12"></p>
+    <hr class="my-5">
+    <p class="text3"></p>
+    <p class="lead ">
+      <a class="btn btn-primary btn-lg"  href="#" role="button">Learn more</a>
+    </p>
+  </div>     
+</div>
+</div>
+<div class="container-fluid contain1 mt-5 position-relative ">
+  <div class="row">
+    <h1 class="text-center ani" style="font-weight: bold;">Our distinguished customers this month</h1>
+    <hr class="my-5 m-auto">
+    <div class="col-md-6 col-lg-3 col-sm-6">
+      <div class="card" style="width: 14rem;">
+        <img  src="./efc8cd038d0b533d4b6714e8ed59a199.jpg" class="card-img-top im" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Adam John</h5>
+          <p class="card-text">Thank you, our dear client. We were very pleased to serve you since 2015 until now. We wish you a good life and to live up to your expectations.</p>
+          <a href="#" class="btn btn-primary carbtn">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-3 col-sm-6">
+      <div class="card" style="width: 14rem;">
+        <img src="./30f2cbcebf1d3194a681966db0164243.jpg" class="card-img-top im" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Andrew Brad</h5>
+          <p class="card-text">Thank you, our dear client. We were very pleased to serve you since 2016 until now. We wish you a good life and to live up to your expectations.</p>
+          <a href="#" class="btn btn-primary carbtn">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-3 col-sm-6">
+      <div class="card" style="width: 14rem;">
+        <img src="./99db4545c5f474cd5ea40891d05106d9.jpg" class="card-img-top im" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Brad Tom</h5>
+          <p class="card-text">Thank you, our dear client. We were very pleased to serve you since 2019 until now. We wish you a good life and to live up to your expectations.</p>
+          <a href="#" class="btn btn-primary carbtn">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-3 col-sm-6">
+      <div class="card" style="width: 14rem;">
+        <img src="./ca8c088f8e981a9f45c66bbe5cfb8158.jpg" class="card-img-top im" alt="..."></h5>
+        <div class="card-body">
+        <h5 class="card-title">David Mark</h5>
+          <p class="card-text">Thank you, our dear client. We were very pleased to serve you since 2020 until now. We wish you a good life and to live up to your expectations.</p>
+          <a href="#" class="btn btn-primary carbtn">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid conte3 mt-4">
+  <div class="row">
+    <div class=" col-lg-12  d-flex flex-wrap flex-sm-row justify-content-evenly conte2">
+      <div><h1 class="count1"></h1></div>
+      <div><h1 class="count2"></h1></div>
+      <div><h1 class="count3"></h1></div>
+      <div><h1 class="count4"></h1></div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid mt-5"></div>
+<div class="container-fluid text-center">
+  <h1>Currency Exchange Rates</h1>
+  <table class="table table-striped mt-5">
+     <thead>
+        <tr>
+           <th>Currency</th>
+           <th>Country</th>
+           <th>Exchange Rate (EGP)</th>
+        </tr>
+     </thead>
+     <tbody>
+        <tr>
+           <td>US Dollar</td>
+           <td>United States</td>
+           <td>15.75</td>
+        </tr>
+        <tr>
+           <td>Euro</td>
+           <td>European Union</td>
+           <td>18.50</td>
+        </tr>
+        <tr>
+           <td>British Pound</td>
+           <td>United Kingdom</td>
+           <td>20.80</td>
+        </tr>
+        <tr>
+           <td>Japanese Yen</td>
+           <td>Japan</td>
+           <td>0.143</td>
+        </tr>
+        <tr>
+           <td>Canadian Dollar</td>
+           <td>Canada</td>
+           <td>12.25</td>
+        </tr>
+        <tr>
+           <td>Australian Dollar</td>
+           <td>Australia</td>
+           <td>11.50</td>
+        </tr>
+        <tr>
+           <td>Swiss Franc</td>
+           <td>Switzerland</td>
+           <td>17.25</td>
+        </tr>
+        <tr>
+           <td>Chinese Yuan</td>
+           <td>China</td>
+           <td>2.25</td>
+        </tr>
+        <tr>
+           <td>Indian Rupee</td>
+           <td>India</td>
+           <td>0.20</td>
+        </tr>
+        <tr>
+           <td>Brazilian Real</td>
+           <td>Brazil</td>
+           <td>3.50</td>
+        </tr>
+        <tr>
+           <td>Saudi Riyal</td>
+           <td>Saudi Arabia</td>
+           <td>4.20</td>
+        </tr>
+        <tr>
+           <td>Emirati Dirham</td>
+           <td>United Arab Emirates</td>
+           <td>4.30</td>
+        </tr>
+        <tr>
+           <td>Russian Ruble</td>
+           <td>Russia</td>
+           <td>0.21</td>
+        </tr>
+        <tr>
+           <td>Mexican Peso</td>
+           <td>Mexico</td>
+           <td>0.75</td>
+        </tr>
+        <tr>
+           <td>South African Rand</td>
+           <td>South Africa</td>
+           <td>0.90</td>
+        </tr>
+     </tbody>
+  </table>
+  <a href="" class="btn coins btn-primary">Change your currency now  </a>
+  <!-- <i class="fa-solid fa-arrow-right"></i> -->
+</div>
+<div class="container-fluid conte4 mt-5 position-relative conte5">
+  <h1 class="text-center text-capitalize h-ora" >What are you thinking about?</h1>
+  <img class="position-absolute mt-5 im1" src="./undraw_businessman_9hq8.png" style="width: 400px; right: 10px; position: absolute; top :100px" alt="">
+  <p class="p1  mt-5 p-3">according to their personal needs and preferences. We provide reservation services and logistical arrangements, including hotel reservations, airline tickets and domestic transportation, to ensure a comfortable and integrated travel experience for customers. Our company relies on modern and advanced technology to facilitate the planning and reservation process, providing our customers with ease and flexibility in choosing and organizing their trips. We also provide ongoing customer support, ensuring accurate and detailed information on destinations, activities and services available</p>
+  <div class="d-flex container-fluid w-100 justify-content-center fakra"><div class="div1"></div><div class="div2"></div><div class="div3"></div><div class="div4"></div><div class="div5"></div></div>
+</div>
+<div class="container-fluid w-100 mt-5">
+    <h1 class="text-center text-capitalize mt-5">Our means</h1>
+<div class="container-fluid w-75 mt-5 d-flex gap-5">
+    <div class="row gap-5 d-flex justify-content-evenly"> 
+  <div class="card c1" style="width: 18rem;">
+    <img src="./sea-beach-islands-landscape-wallpaper-preview.jpg" class="card-img-top mt-2 " alt="...">
+    <div class="card-body">
+      <p class="card-text">We know that in order to have a happy vacation, it must be on your vehicle, which is a tourist boat, so we offer you a fleet of tourist boats at your service</p>
+    </div>
+  </div>
+  <div class="card c2" style="width: 18rem;">
+    <img src="./300er-777-airplane-boeing-wallpaper-preview.jpg" class="card-img-top mt-2 " alt="...">
+    <div class="card-body">
+      <p class="card-text">Everyone knows that planes are the fastest and most fluid conductors, so we offer you a fleet of planes at your service.</p>
+    </div>
+  </div>
+  <div class="card c3" style="width: 18rem;">
+    <img src="./alemania-coche-mercedes-negro-wallpaper-preview.jpg" class="card-img-top mt-2 " alt="...">
+    <div class="card-body">
+      <p class="card-text ">Do you want to enjoy the road in a private car, air-conditioned at the highest level of sophistication, then your means should be a private car. We offer you a fleet of the most luxurious private cars</p>
+    </div>
+  </div>
+  <div class="card c4" style="width: 18rem;">
+    <img src="./setra-coach-buses-selective-coloring-wallpaper-preview.jpg" class="card-img-top mt-2 " alt="...">
+    <div class="card-body">
+      <p class="card-text">Do you want to enjoy group trips with your friends and family, then your means should be the air-conditioned bus, so we offer you a fleet of buses at your service</p>
+    </div>
+  </div>
+</div> 
+</div>
+<div class="container-fluid  mt-5 d-flex justify-content-center">
+  <div class="rating m-5">
+    <input type="radio" id="star-1" name="star-radio" value="star-1">
+    <label for="star-1">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path pathLength="360" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path></svg>
+    </label>
+    <input type="radio" id="star-2" name="star-radio" value="star-1">
+    <label for="star-2">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path pathLength="360" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path></svg>
+    </label>
+    <input type="radio" id="star-3" name="star-radio" value="star-1">
+    <label for="star-3">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path pathLength="360" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path></svg>
+    </label>
+    <input type="radio" id="star-4" name="star-radio" value="star-1">
+    <label for="star-4">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path pathLength="360" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path></svg>
+    </label>
+    <input type="radio" id="star-5" name="star-radio" value="star-1">
+    <label for="star-5">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path pathLength="360" d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path></svg>
+    </label>
+  </div>
+  <form class="form-group m-5">
+    <input type="text" class="form-control">
+  </form>
+  <button class="btn btn-primary h-25 m-5">Send</button>
+</div>
+      <script src="./all.min.js"></script>
+      <script src="./bootstrap.bundle.min.js"></script>
+      <script src="./index.js"></script>  
+    </body>
+</html>
